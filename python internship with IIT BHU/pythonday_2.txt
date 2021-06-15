@@ -1,0 +1,156 @@
+"""
+print("uttam yadav ")
+a=3
+b=5
+c=3
+print(a)
+print(b)
+print(type(b))
+print(type(a))
+print("id of a is",id(a))
+print("id of b is",id(b))
+print("id of c is",id(c))
+
+#user define value 
+
+a=int(input("enter the first value :"))
+b=int(input("enter the second value :"))
+print("the sum of a and b is ",a+b)
+print(a)
+print(b)
+print(a+b)
+print(type(a))
+print(type(b))
+print(id(a))
+print(id(b))
+
+a=float(input("enter the value of a :"))
+b=int(input("enter the value of b :"))
+print("the sum of a and b is ",a+b)
+
+
+# string
+
+a='uttam'
+b="yadav"
+c='Uttam'
+d="Yadav"
+print(a+b)
+print(type(a))
+print(type(b))
+print(a[3])
+print(b[2])
+print(c.upper())
+print(d.upper())
+print(c.lower())
+print(d.lower())
+print(a.count('t',0,5))
+print(a.capitalize())
+print(a.find('t',0,5))
+print(a.title())
+
+#concatenatig of string using + operator
+print("my name is ",a + b)
+print("my name is "+ a+b )
+#use of .format()
+print("my name is {} {}".format(a,b))
+first_name=input("please enter your first name :")
+last_name=input("please enter your last name :")
+print("your name is {} {}".format(a,b))
+print("your name is "+a,end=" "+b)
+print("your name is "+a+" " +b)
+
+
+#Arithmatic operator in python
+print(22*' uttam ')
+a,b=5,2
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a**b)
+print(a//b)
+print(a%b)
+
+#Assignment  operator in python
+a,b=5,2
+a+=5
+b+=7
+print(a)
+print(b)
+print(a+b)
+#print(a+=5,b+=4)
+a-=2
+b-=7
+print(a)
+print(b)
+print(a-b)
+
+a*=2
+b-=7
+print(a)
+print(b)
+print(a-b)
+
+a+=2
+b/=7
+print(a)
+print(b)
+print(a-b)
+
+
+#comparison operator in python 
+a,b=8,3
+print(a>b)
+print(a>b)
+print(a<b)
+print(a<b)
+print(a==b)
+print(a!=b)
+print(2>6)
+print(5==9)
+print(6!=9)
+
+#logical operator in python 
+a,b=True,False
+print(True and True)
+print(False and True)
+print(True and False)
+print(False and False)
+print(a and b)
+print(4 and b)
+print(5 and 9)
+
+
+print(True or True)
+print(False or True)
+print(True or False)
+print(False or False)
+print(a or b)
+print(4 or b)
+print(5 or 9)
+
+#identity operator in python 
+
+a,b=3,6
+print(a is b)
+print(a is not  b)
+print(b is b)
+print(b is not b)
+print(5 == 7)
+print(5 != 7)
+"""
+#membership operator in python 
+
+a=[9,5,'uttam',8.9,'u',2.5]
+print(5 in a)
+print(5 not in a)
+print('uttam' in a)
+print(5 in a)
+print(8.9 in a)
+print(2.5 not in a)
+
+
+
+
+
